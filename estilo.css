@@ -1,0 +1,33 @@
+
+.navbar{
+    background-color:  #262626;
+}
+.quem-somos{
+    background-color: gray;
+}
+.margem{
+    margin-top: 50px;
+    padding-bottom:20px;
+}
+body{
+    background-color:  #0d0d0d;
+    color: white;
+}
+.link{
+    color: rgba(255, 255, 255, 0.644);
+    text-decoration:none ;
+}
+.listacontatos{
+    list-style-type: none;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Verdana', 'Times New Roman';
+}
+.footer{
+    font-size:70%;
+    margin-top: 60px;
+}
