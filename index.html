@@ -4,14 +4,15 @@
         <title>aula de bootstrap</title>
         <meta charset="utf-8">
         <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css"> 
-        <link rel="stylesheet" type="text/css" href="estilo.css">   
+        <link rel="stylesheet" type="text/css" href="estilo.css">  
+        <script src="pagina.js"></script> 
     </head>
     <body>
 
     
     <nav class="navbar navbar-expand-lg navbar-light">
         <a class="navbar-brand" href="#">
-            <img class="rounded-circle" src="img/brunin.png" width="100" height="100">
+            <img class="rounded-circle" src="img/brunin.png" width="100" height="100" onclick="pergunta('tens certeza?')" id="brunin">
         </a>
         <div class="collapse navbar-collapse">
         <ul class="navbar-nav">
@@ -31,10 +32,8 @@
         <div class="container quem-somos text-center margem">
             
             <h3>Quem Somos</h3>
-            <img src="img/okinatpose.PNG" width="300" height="300" class="rounded-circle">
-            <p>A fúria é uma chama, não apaga, inflama
-                Você não vai conseguir tirar minha calma
-                Esse é meu segredo, tô sempre com raiva</p>
+            <img src="img/4c65d42c27724de35c27f5909858be75.jpg" width="300" height="300" class="rounded-circle">
+            <p>somos a diversão da noite bobobobobobobobobobobo eu só mato por diversão</p>
         </div>
     </section>
     <section class="text-lg-center">
@@ -42,7 +41,7 @@
         <div id="produtos" class="produtos">
             <div class="row">
                 <div class="col-lg-6 ">
-                    <img src="img/download.jpg" class="round-circle">
+                    <img src="img/download.jpg" class="round-circle" onclick="clickProduto(0)">
                     <p>A fúria é uma chama, não apaga, inflama
                     Você não vai conseguir tirar minha calma
                     Esse é meu segredo, tô sempre com raiva</p>
